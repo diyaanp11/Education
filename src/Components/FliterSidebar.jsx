@@ -10,7 +10,7 @@ const FilterSidebar = ({
   onReset,
 }) => {
   return (
-    <div className="w-64 p-4 border rounded-xl shadow  bg-white">
+    <div className="w-64 p-4 border rounded-xl shadow bg-white">
       <h2 className="text-xl font-bold">Filters</h2>
 
       <div>

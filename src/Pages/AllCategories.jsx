@@ -7,24 +7,24 @@
         setCategories(
        [
         {
-            title:"Tech",
+            title:"Web Development",
         image: "https://wbjgvyzeqirlsfebwzri.supabase.co/storage/v1/object/public/blog-images/c59c335c-8bd4-4fbe-8b6b-3134b1f594e4.jpg",
-        description: "All about the tech field"
+        description: "All about the web dev"
         },
         {
-            title:"Finance",
+            title:"Data Science",
         image: "https://wbjgvyzeqirlsfebwzri.supabase.co/storage/v1/object/public/blog-images/c59c335c-8bd4-4fbe-8b6b-3134b1f594e4.jpg",
-        description: "All about the finance field"
+        description: "All about the data science"
         },
         {
-            title:"Management",
+            title:"Design",
         image: "https://wbjgvyzeqirlsfebwzri.supabase.co/storage/v1/object/public/blog-images/c59c335c-8bd4-4fbe-8b6b-3134b1f594e4.jpg",
-        description: "All about the management field"
+        description: "All about Designing"
         },
         {
-            title:"Automobile",
+            title:"Business",
         image: "https://wbjgvyzeqirlsfebwzri.supabase.co/storage/v1/object/public/blog-images/c59c335c-8bd4-4fbe-8b6b-3134b1f594e4.jpg",
-        description: "All about the automobile field"
+        description: "Business & Management"
         },
        ]
     )

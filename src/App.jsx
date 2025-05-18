@@ -8,13 +8,15 @@ import AllCourse from './Pages/AllCourse';
 import CourseDetail from './Pages/CourseDetail';
 import AllCategories from './Pages/AllCategories';
 import AboutUs from './Pages/AboutUs'
+import Footer from './Pages/Footer';
 const AppContent = () => {
   const location = useLocation();
   const noHeaderRoutes = ['/login', '/signup'];
-
+  const noFooterRouter = ['/login', '/signup','/'];
   return (
     <div>
       {!noHeaderRoutes.includes(location.pathname) && <Header />}
+      
       <Routes>
         <Route path='/' element={<Landing />}> </Route>
         <Route path='/signup' element={<Signup />}></Route>
@@ -24,6 +26,7 @@ const AppContent = () => {
         <Route path='/category' element={<AllCategories/>}></Route>
         <Route path='/aboutus' element={<AboutUs/>}></Route>
       </Routes>
+      {!noFooterRouter.includes(location.pathname) && <Footer/>}
     </div>
   );
 };
